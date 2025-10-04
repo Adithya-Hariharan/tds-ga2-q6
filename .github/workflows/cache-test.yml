@@ -2,7 +2,8 @@ name: CI Cache Prime
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   cache_job:
