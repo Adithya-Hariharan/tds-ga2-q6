@@ -1,0 +1,13 @@
+name: Email Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  email-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3001894@ds.study.iitm.ac.in
+        run: echo "Hello from GitHub Actions with email!"
